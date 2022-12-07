@@ -3,7 +3,7 @@ import Image from "next/image";
 export const Header = () => {
   return (
     <div className="w-full h-[70px]  flex justify-center">
-      <div className="w-full flex justify-center max-w-screen-2xl">
+      <div className="w-full flex justify-center max-w-[1366px]">
         <div className="w-full flex justify-between items-center mr-[70px] ml-[150px]">
           <div className="flex items-center">
             <div>

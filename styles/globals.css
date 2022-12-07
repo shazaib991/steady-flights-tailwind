@@ -2,6 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: customFontRegular;
+  src: url(OpenSauceSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: customFontMedium;
+  src: url(OpenSauceSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: customFontLight;
+  src: url(OpenSauceSans-Light.ttf);
+}
+
+@font-face {
+  font-family: customFontBold;
+  src: url(OpenSauceSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: customFontExtraBold;
+  src: url(OpenSauceSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: customFontSemiBold;
+  src: url(OpenSauceSans-SemiBold.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;

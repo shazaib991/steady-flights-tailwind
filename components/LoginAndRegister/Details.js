@@ -2,28 +2,34 @@ import Image from "next/image";
 
 export const Details = ({ isRegisterPage }) => {
   return (
-    <div className="">
-      <div className="{styles.DetailsWrapper}">
-        <div className="{styles.DetailsContainer}">
-          <h1>
+    <div className="w-full flex justify-center">
+      <div className="w-full flex justify-center max-w-[1366px]">
+        <div className="w-[73%]">
+          <h1
+            className="text-[24px] mb-[20px]"
+            style={{ fontFamily: "customFontMedium" }}
+          >
             {isRegisterPage
               ? "Register and don't miss out on Steady Flights features."
               : "Login to your account and get the most out of your travels!"}
           </h1>
-          <p>
+          <p className="text-[14px] text-[#A6A8A9]">
             {isRegisterPage
               ? "Once you register, you'll unlock access to all our features!"
               : "Traveling made easy."}
           </p>
-          <div className="{styles.DetailsCardsContainer}">
-            <div className="{styles.DetailsCard}">
+          <div className="w-full flex flex-wrap justify-between mt-[80px] mb-[60px]">
+            <div className="w-[300px] flex flex-col items-center">
               <Image
                 src="/assets/Layer 1.svg"
                 alt="Statistics chart"
                 width={300}
                 height={160}
               />
-              <h1>
+              <h1
+                className="text-[20px] mt-[28px] mb-[14px]"
+                style={{ fontFamily: "customFontbold" }}
+              >
                 {isRegisterPage
                   ? "Access to all our features"
                   : "Travel Features"}
@@ -31,8 +37,8 @@ export const Details = ({ isRegisterPage }) => {
               <p
                 className={
                   isRegisterPage
-                    ? "styles.DetailsCardRegisterPara1"
-                    : "styles.DetailsCardLoginPara1"
+                    ? "w-[84%] text-center text-[15px] text-[#A6A8A9] leading-[28px]"
+                    : "w-[91%] text-center text-[15px] text-[#A6A8A9] leading-[28px]"
                 }
               >
                 {isRegisterPage
@@ -40,19 +46,21 @@ export const Details = ({ isRegisterPage }) => {
                   : "Steady Alerts, Steady Rewards, and much more! Access depends on your package."}
               </p>
             </div>
-            <div className="{styles.DetailsCard}">
+            <div className="w-[300px] flex flex-col items-center">
               <Image
                 src="/assets/Layer 2.svg"
                 alt="Statistics chart"
                 width={191}
                 height={160}
               />
-              <h1>Excellent Deals</h1>
+              <h1 className="text-[20px] mt-[28px] mb-[14px]">
+                Excellent Deals
+              </h1>
               <p
                 className={
                   isRegisterPage
-                    ? "styles.DetailsCardRegisterPara2"
-                    : "styles.DetailsCardLoginPara2"
+                    ? "w-[94%] text-center text-[15px] text-[#A6A8A9] leading-[28px]"
+                    : "w-[94%] text-center text-[15px] text-[#A6A8A9] leading-[28px]"
                 }
               >
                 {isRegisterPage
@@ -60,19 +68,21 @@ export const Details = ({ isRegisterPage }) => {
                   : "Searching for the best deals has never been easier than it is now with Steady Flights."}
               </p>
             </div>
-            <div className="{styles.DetailsCard}">
+            <div className="w-[300px] flex flex-col items-center">
               <Image
                 src="/assets/Layer 3.svg"
                 alt="Statistics chart"
                 width={257}
                 height={160}
               />
-              <h1>Traveler Profile</h1>
+              <h1 className="text-[20px] mt-[28px] mb-[14px]">
+                Traveler Profile
+              </h1>
               <p
                 className={
                   isRegisterPage
-                    ? "styles.DetailsCardRegisterPara3"
-                    : "styles.DetailsCardLoginPara3"
+                    ? "w-full text-center text-[15px] text-[#A6A8A9] leading-[28px]"
+                    : "w-full text-center text-[15px] text-[#A6A8A9] leading-[28px]"
                 }
               >
                 {isRegisterPage
