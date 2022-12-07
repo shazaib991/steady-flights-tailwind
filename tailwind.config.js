@@ -5,6 +5,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    backgroundImage: {
+      "background-loginSignupForm-image": "url('/assets/Untitled.svg')",
+    },
     extend: {},
   },
   plugins: [],

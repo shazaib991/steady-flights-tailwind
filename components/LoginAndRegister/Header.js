@@ -21,13 +21,13 @@ export const Header = () => {
               <div className="w-4/6 h-4 bg-black rounded-xl float-right"></div>
             </div>
             <div className="flex">
-              <p className="mr-[20px] text-[10px] tracking-[0.5px] text-[#909294]">
+              <p className="mr-[20px] text-[12px] tracking-[0.5px] text-[#909294]">
                 Fly Away
               </p>
-              <p className="mr-[20px] text-[10px] tracking-[0.5px] text-[#909294]">
+              <p className="mr-[20px] text-[12px] tracking-[0.5px] text-[#909294]">
                 Steady Alerts
               </p>
-              <p className="mr-[20px] text-[10px] tracking-[0.5px] text-[#909294]">
+              <p className="mr-[20px] text-[12px] tracking-[0.5px] text-[#909294]">
                 Steady Rewards
               </p>
             </div>
