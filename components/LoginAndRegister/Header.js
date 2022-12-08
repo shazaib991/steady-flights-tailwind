@@ -21,19 +21,19 @@ export const Header = () => {
               <div className="w-4/6 h-4 bg-black rounded-xl float-right"></div>
             </div>
             <div className="flex">
-              <p className="mr-[20px] text-[12px] tracking-[0.5px] text-[#909294]">
+              <p className="mr-[20px] text-[10px] tracking-[0.5px] text-[#909294] font-['customFontBold']">
                 Fly Away
               </p>
-              <p className="mr-[20px] text-[12px] tracking-[0.5px] text-[#909294]">
+              <p className="mr-[20px] text-[10px] tracking-[0.5px] text-[#909294] font-['customFontBold']">
                 Steady Alerts
               </p>
-              <p className="mr-[20px] text-[12px] tracking-[0.5px] text-[#909294]">
+              <p className="mr-[20px] text-[10px] tracking-[0.5px] text-[#909294] font-['customFontBold']">
                 Steady Rewards
               </p>
             </div>
           </div>
           <div className="flex">
-            <button className="w-[130px] h-[36px] bg-[#1ABEC8] rounded-[15px] text-white text-[13px]">
+            <button className="w-[130px] h-[36px] bg-[#1ABEC8] rounded-[15px] text-white text-[14px] font-['customFontRegular']">
               Contact
             </button>
             <Image
