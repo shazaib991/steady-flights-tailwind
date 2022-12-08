@@ -15,8 +15,8 @@ export const FormSection = ({ isRegisterPage }) => {
     <div
       className={
         isRegisterPage
-          ? "w-full h-[665px] min-w-[1280px] max-w-[1366px] relative flex justify-center overflow-x-hidden bg-background-loginSignupForm-image bg-no-repeat bg-center bg-cover"
-          : "w-full h-[665px] min-w-[1280px] max-w-[1366px] relative flex justify-center overflow-x-hidden bg-background-loginSignupForm-image bg-no-repeat bg-center bg-cover"
+          ? "w-full h-[665px] min-w-[1280px]  relative flex justify-center overflow-x-hidden bg-background-loginSignupForm-image bg-no-repeat bg-center bg-cover"
+          : "w-full h-[665px] min-w-[1280px] relative flex justify-center overflow-x-hidden bg-background-loginSignupForm-image bg-no-repeat bg-center bg-cover"
       }
     >
       <div className="w-full max-w-[1366px] flex justify-center">
