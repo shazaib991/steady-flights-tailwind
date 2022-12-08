@@ -94,7 +94,7 @@ export const FormSection = ({ isRegisterPage }) => {
             {isRegisterPage && (
               <div>
                 <div
-                  className="inline-flex items-center mb-[15px]"
+                  className="inline-flex items-center mb-[13px]"
                   onClick={handleClickCheckbox}
                 >
                   <div className="w-[14px] h-[14px] rounded-[3px] bg-[#ebebeb] block"></div>

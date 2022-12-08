@@ -5,15 +5,12 @@ export const Details = ({ isRegisterPage }) => {
     <div className="w-full flex justify-center">
       <div className="w-full flex justify-center max-w-[1366px]">
         <div className="w-[73%]">
-          <h1
-            className="text-[24px] mb-[20px]"
-            style={{ fontFamily: "customFontMedium" }}
-          >
+          <h1 className="text-[24px] mb-[15px] font-['customFontSemiBold']">
             {isRegisterPage
               ? "Register and don't miss out on Steady Flights features."
               : "Login to your account and get the most out of your travels!"}
           </h1>
-          <p className="text-[14px] text-[#A6A8A9]">
+          <p className="text-[14px] text-[#A6A8A9] font-['customFontRegular']">
             {isRegisterPage
               ? "Once you register, you'll unlock access to all our features!"
               : "Traveling made easy."}
@@ -26,10 +23,7 @@ export const Details = ({ isRegisterPage }) => {
                 width={300}
                 height={160}
               />
-              <h1
-                className="text-[20px] mt-[28px] mb-[14px]"
-                style={{ fontFamily: "customFontbold" }}
-              >
+              <h1 className="text-[20px] mt-[28px] mb-[14px] font-['customFontSemiBold']">
                 {isRegisterPage
                   ? "Access to all our features"
                   : "Travel Features"}
@@ -37,8 +31,8 @@ export const Details = ({ isRegisterPage }) => {
               <p
                 className={
                   isRegisterPage
-                    ? "w-[84%] text-center text-[15px] text-[#A6A8A9] leading-[28px]"
-                    : "w-[91%] text-center text-[15px] text-[#A6A8A9] leading-[28px]"
+                    ? "w-[84%] text-center text-[15px] text-[#A6A8A9] leading-[28px] font-['customFontMedium']"
+                    : "w-[91%] text-center text-[15px] text-[#A6A8A9] leading-[28px] font-['customFontMedium']"
                 }
               >
                 {isRegisterPage
@@ -53,14 +47,14 @@ export const Details = ({ isRegisterPage }) => {
                 width={191}
                 height={160}
               />
-              <h1 className="text-[20px] mt-[28px] mb-[14px]">
+              <h1 className="text-[20px] mt-[28px] mb-[14px] font-['customFontSemiBold']">
                 Excellent Deals
               </h1>
               <p
                 className={
                   isRegisterPage
-                    ? "w-[94%] text-center text-[15px] text-[#A6A8A9] leading-[28px]"
-                    : "w-[94%] text-center text-[15px] text-[#A6A8A9] leading-[28px]"
+                    ? "w-[94%] text-center text-[15px] text-[#A6A8A9] leading-[28px] font-['customFontMedium']"
+                    : "w-[94%] text-center text-[15px] text-[#A6A8A9] leading-[28px] font-['customFontMedium']"
                 }
               >
                 {isRegisterPage
@@ -75,14 +69,14 @@ export const Details = ({ isRegisterPage }) => {
                 width={257}
                 height={160}
               />
-              <h1 className="text-[20px] mt-[28px] mb-[14px]">
+              <h1 className="text-[20px] mt-[28px] mb-[14px] font-['customFontSemiBold']">
                 Traveler Profile
               </h1>
               <p
                 className={
                   isRegisterPage
-                    ? "w-full text-center text-[15px] text-[#A6A8A9] leading-[28px]"
-                    : "w-full text-center text-[15px] text-[#A6A8A9] leading-[28px]"
+                    ? "w-full text-center text-[15px] text-[#A6A8A9] leading-[28px] font-['customFontMedium']"
+                    : "w-full text-center text-[15px] text-[#A6A8A9] leading-[28px] font-['customFontMedium']"
                 }
               >
                 {isRegisterPage
